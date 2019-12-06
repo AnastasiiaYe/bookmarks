@@ -21,14 +21,40 @@ html,
 body {
   height: 100%;
 }
+
 body {
   margin: 0;
   font-family: Roboto, "Helvetica Neue", sans-serif;
 }
 
-.bookmark-details-wrapper {
-  display: flex;
-  flex-direction: column;
+.wrapper {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.bookmarks-navigation-wrapper {
+    flex-grow: 1;
+    min-width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bookmarks-navigation {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 90%;
+}
+
+.bookmarks-details {
+    background-color: rgb(236, 236, 236);
+    flex-grow: 1;
+    min-width: 50%;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
 }
 
 .create-form {
@@ -47,7 +73,7 @@ body {
   text-transform: uppercase;
   transition: 0.2s ease-out;
 
-  &-addBookmark-round {
+  &.button-addBookmark-round {
     font-size: 36px;
     font-weight: 100;
     align-self: flex-end;
@@ -62,11 +88,24 @@ body {
   &-addBookmark-round .plus-sign:hover {
     animation: rotate 1s;
   }
+ 
+  &.button-deleteBookmark {
+    margin-left: 30px;
+  }
 }
 
 .bookmarkForm-title {
   text-transform: uppercase;
   font-weight: 700;
+}
+
+.mat-expansion-panel-body {
+    display: flex;
+    flex-direction: column;
+}
+
+.bookmark-details-container {
+    width: 450px;
 }
 
 // **** ANIMATIONS **** //

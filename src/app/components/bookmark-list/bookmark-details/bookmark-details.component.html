@@ -1,10 +1,14 @@
 <div class="bookmark-details-wrapper">
-
-    <div>Name: {{ bookmark.name }}</div>
-    <div>URL: {{ bookmark.url }}</div>
-    <div>Group: {{ bookmark.group.name }}</div>
+    <mat-list class="bookmark-details-container">
+            <mat-list-item>Name: {{ bookmark.name }}</mat-list-item>
+            <mat-divider></mat-divider>
+            <mat-list-item>URL: {{ bookmark.url }}</mat-list-item>
+            <mat-divider></mat-divider>
+            <mat-list-item>Group: {{ bookmark.group.name }}</mat-list-item>
+    </mat-list>
 
     <button mat-flat-button color="primary" class="button button-addBookmark" (click)="onBookmarkEdit()">Edit</button>
-    <button mat-flat-button color="warn" class="button button-addBookmark" (click)="onBookmarkDelete()">Delete</button>
-
+    <button mat-flat-button color="warn" class="button button-deleteBookmark" (click)="onBookmarkDelete()">Delete</button>
 </div>
+
+
