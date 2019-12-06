@@ -1,27 +1,49 @@
-# BookmarkApp
+# Test Project: Bookmark
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.20.
+This Project represents test technical task.
 
-## Development server
+Implemented requirements:
+
+o To build an application which manages bookmarks. 
+o Each bookmark should have name, URL and Group. 
+o To create the user inteface for displaying the bookmarks groupped by the "group" property.
+o To enhance the existing application by adding the following new features:
+    o Add new bookmarks using a form
+    o Delete bookmarks by clicking in the list
+
+Required technologies:
+
+o Angular 8
+o NGRX for managing the state
+o Angular material for the user interface
+ 
+
+## Tech Stack used
+
+The Project is written in Angular 8, using NGRX to handle the state and Angular Material to implement the user interface. LocalStorage is choosen to handle bookmarks due to propose of the task.
+
+
+## Available scripts
+
+### Start of the app in development mode
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
+### Build
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-## Running unit tests
+## Future improvements
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+In the nearest future it is planned to implement a couple of improvements and features:
+Design:
+Responsive design: Currently project is written using Flexbox, responsive design will be provided, including media queries;
+Themes: Project will include possibility to change by user the desing thema (using 3 pre-set themes);
 
-## Running end-to-end tests
+Functionality:
+Documentation: Deployment instructions will be extended.
+Logging: Logging functionality would be added in the nearest future.
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+## Author
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Anastasiia Yemelianova: https://www.linkedin.com/in/anastasiia-y/.
