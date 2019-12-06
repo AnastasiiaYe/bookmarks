@@ -5,16 +5,23 @@ This Project represents test technical task.
 Implemented requirements:
 
 o To build an application which manages bookmarks. 
+
 o Each bookmark should have name, URL and Group. 
+
 o To create the user inteface for displaying the bookmarks groupped by the "group" property.
+
 o To enhance the existing application by adding the following new features:
+
     o Add new bookmarks using a form
+    
     o Delete bookmarks by clicking in the list
 
 Required technologies:
 
 o Angular 8
+
 o NGRX for managing the state
+
 o Angular material for the user interface
  
 
