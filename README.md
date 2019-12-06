@@ -25,7 +25,9 @@ The Project is written in Angular 8, using NGRX to handle the state and Angular 
 ## Prerequisites section
 
 Please make sure that following tools are installed:
+
 Node 10.9+ (How to install Node: https://nodejs.org/en/download/);
+
 Angular CLI (How to install Angular CLI: https://angular.io/cli)
 
 ## Available scripts
