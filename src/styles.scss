@@ -1,1 +1,80 @@
-/* You can add global styles to this file, and also import other style files */
+// **** CUSTOM THEME FOR ANGULAR MATERIAL IS USED **** //
+@import "~@angular/material/theming";
+@include mat-core();
+
+// **** VARIABLES **** //
+$bookmark-app-primary: mat-palette($mat-purple, 900);
+$bookmark-app-accent: mat-palette($mat-pink, A200);
+$bookmark-app-warn: mat-palette($mat-deep-orange, A400);
+
+// **** THEME **** //
+$bookmark-app-theme: mat-light-theme(
+  $bookmark-app-primary,
+  $bookmark-app-accent,
+  $bookmark-app-warn
+);
+
+@include angular-material-theme($bookmark-app-theme);
+
+// **** GENERAL STYLES FOR APPLICATION **** //
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.bookmark-details-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.create-form {
+  min-width: 150px;
+  max-width: 500px;
+  width: 100%;
+}
+
+.bookmarkForm-full-width {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.button {
+  text-transform: uppercase;
+  transition: 0.2s ease-out;
+
+  &-addBookmark-round {
+    font-size: 36px;
+    font-weight: 100;
+    align-self: flex-end;
+    margin-bottom: 30px;
+  }
+
+  .plus-sign {
+    display: inline-block;
+    vertical-align: unset !important;
+  }
+
+  &-addBookmark-round .plus-sign:hover {
+    animation: rotate 1s;
+  }
+}
+
+.bookmarkForm-title {
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+// **** ANIMATIONS **** //
+@keyframes rotate {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

@@ -1,4 +1,4 @@
-// Part of Angular Material
+// **** ANGULAR MATERIAL **** //
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 

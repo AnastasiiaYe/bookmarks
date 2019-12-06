@@ -50,7 +50,7 @@ export class BookmarkStorageService {
             return of(bookmark);
         }
 
-        // error handler would be added
+        // Error handler would be added
     }
 
     public deleteBookmark(bookmark: BookmarkModel): Observable<boolean> {
@@ -72,7 +72,6 @@ export class BookmarkStorageService {
             const localStorageBookmarks = JSON.parse(localStorage.getItem(LOCAL_STORAGE.BOOKMARKS));
             return localStorageBookmarks ? localStorageBookmarks : [];
         } catch {
-            console.log('We are here');
             return [];
         }
     }

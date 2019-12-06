@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { BookmarkModel } from 'src/app/models/bookmark.model';
 import { ActivatedRoute, Router } from '@angular/router';
-import { GroupModel } from 'src/app/models/group.model';
 import { Observable, Subscription } from 'rxjs';
 import { Store, select } from '@ngrx/store';
 import { DeleteBookmark} from '../../../actions';
@@ -15,6 +14,7 @@ import { BookmarkStorageService } from 'src/app/services/bookmarks-storage.servi
   templateUrl: './bookmark-details.component.html',
   styleUrls: ['./bookmark-details.component.scss']
 })
+
 export class BookmarkDetailsComponent implements OnInit {
 
   bookmarks: BookmarkModel[] = [];

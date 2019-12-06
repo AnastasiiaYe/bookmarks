@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Observable, Subscription } from 'rxjs';
 import { BookmarkModel } from 'src/app/models/bookmark.model';
-import { Store, select, USER_RUNTIME_CHECKS } from '@ngrx/store';
+import { Store } from '@ngrx/store';
 import { FormGroup, FormControl, Validators } from '@angular/forms';
 import { ActivatedRoute, Router } from '@angular/router';
 import { ROUTES } from '../../constants/constants';
@@ -15,6 +15,7 @@ import { GroupModel } from 'src/app/models/group.model';
   templateUrl: './bookmark-form.component.html',
   styleUrls: ['./bookmark-form.component.scss']
 })
+
 export class BookmarkFormComponent implements OnInit {
 
   bookmarksSubscription: Subscription;
@@ -27,7 +28,6 @@ export class BookmarkFormComponent implements OnInit {
   constructor(
     private store: Store<AppState>,
     private route: ActivatedRoute,
-    private router: Router,
     private storageService: BookmarkStorageService
   ) { }
 

@@ -7,6 +7,7 @@ import { BookmarkModel } from 'src/app/models/bookmark.model';
   templateUrl: './bookmark-group.component.html',
   styleUrls: ['./bookmark-group.component.scss']
 })
+
 export class BookmarkGroupComponent implements OnInit {
 
   @Input() group: GroupModel;
@@ -14,7 +15,5 @@ export class BookmarkGroupComponent implements OnInit {
 
   constructor() { }
 
-  ngOnInit() {
-  }
-
+  ngOnInit() { }
 }

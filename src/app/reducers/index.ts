@@ -1,8 +1,6 @@
 import { ActionReducerMap } from '@ngrx/store';
 import { BookmarkModel } from '../models/bookmark.model';
-import { GroupModel } from '../models/group.model';
 import * as Actions from '../actions';
-import { FetchBookmarks } from '../actions';
 
 export interface AppState {
   bookmarks: BookmarksState;
@@ -13,13 +11,7 @@ export interface BookmarksState {
 }
 
 export const initialState = {
-
-   bookmarks: [
-  //   new BookmarkModel('1', new GroupModel(), 'Google', 'https://www.google.com'),
-  //   new BookmarkModel('2', new GroupModel(), 'Spotify', 'https://www.spotify.com'),
-  //   new BookmarkModel('3', new GroupModel('Library'), 'Books', 'https://www.amazon.com'),
-  //   new BookmarkModel('4', new GroupModel('Kittens'), 'Youtube', 'https://www.youtube.com'),
-   ]
+   bookmarks: []
 };
 
 export function bookmarksReducer(state: BookmarksState = initialState, action: Actions.actions ) {

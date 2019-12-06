@@ -19,6 +19,7 @@ export interface FeatureState {
   templateUrl: './bookmark-list.component.html',
   styleUrls: ['./bookmark-list.component.scss']
 })
+
 export class BookmarkListComponent implements OnInit, OnDestroy {
 
   panelOpenState = false;
