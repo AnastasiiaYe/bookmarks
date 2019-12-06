@@ -61,3 +61,6 @@ Logging: Logging functionality would be added in the nearest future.
 ## Author
 
 Anastasiia Yemelianova: https://www.linkedin.com/in/anastasiia-y/.
+
+## Screenshots
+![image](https://postimg.cc/S2BMLmdk)
