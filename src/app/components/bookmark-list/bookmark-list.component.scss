@@ -1,0 +1,26 @@
+.button {
+  &-add {
+    font-size: 36px;
+    font-weight: 100;
+    align-self: flex-end;
+    margin-bottom: 30px;
+  }
+}
+
+.plus-sign {
+  display: inline-block;
+  vertical-align: unset !important;
+}
+
+.plus-sign:hover {
+  animation: rotate 1s;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

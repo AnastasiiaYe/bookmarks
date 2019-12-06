@@ -1,0 +1,7 @@
+<div class="bookmarks-navigation">
+  <button mat-fab color="primary" class="button-add" (click)="addNewBookmark()">
+    <span class="button plus-sign">&#43;</span>
+  </button>
+
+  <app-bookmark-group *ngFor="let group of groups" [bookmarks]="getBookmarksForGroup(group)" [group]="group"></app-bookmark-group>
+</div>

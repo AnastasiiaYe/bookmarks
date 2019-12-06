@@ -1,0 +1,11 @@
+<mat-accordion>
+        <mat-expansion-panel (opened)="panelOpenState = true"
+                             (closed)="panelOpenState = false">
+                <mat-expansion-panel-header>
+                    <mat-panel-title>
+                      {{ group.name }}
+                    </mat-panel-title>
+                  </mat-expansion-panel-header>
+                  <app-bookmark-item *ngFor='let bookmark of bookmarks' [bookmark]="bookmark"></app-bookmark-item>
+        </mat-expansion-panel>
+</mat-accordion>
