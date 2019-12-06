@@ -63,10 +63,4 @@ Logging: Logging functionality would be added in the nearest future.
 Anastasiia Yemelianova: https://www.linkedin.com/in/anastasiia-y/.
 
 ## Screenshots
-![Main](https://i.postimg.cc/S2BMLmdk/Screenshot-2019-12-06-at-15-54-37.png)
-![Validation](https://i.postimg.cc/9wyqJsgT/Screenshot-2019-12-06-at-15-55-13.png)
-![OneGroup](https://i.postimg.cc/MXBR6jZT/Screenshot-2019-12-06-at-15-55-50.png)
-![MoreGroups](https://i.postimg.cc/GH1DHh9j/Screenshot-2019-12-06-at-15-56-09.png)
-![MoreGroups](https://i.postimg.cc/GH1DHh9j/Screenshot-2019-12-06-at-15-56-09.png)
-![Open](https://i.postimg.cc/4mb9tk9R/Screenshot-2019-12-06-at-15-57-16.png)
-![MoreBookmarks](https://i.postimg.cc/FYrJVWyd/Screenshot-2019-12-06-at-15-57-30.png)
+Link to galery: https://postimg.cc/gallery/o3eklzsw/
